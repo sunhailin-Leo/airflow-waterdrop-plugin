@@ -34,6 +34,15 @@ Airflow Waterdrop version 1.X (https://github.com/InterestingLab/waterdrop) Plug
 $ pip install airflow_waterdrop_plugin -U
 ```
 
+## ✨ Feature
+
+* Supported
+    * Spark Mode
+    * Every Input/Filter/Outer Plugin
+    
+* Unsupported
+    * Flink Mode
+
 ## 📝 Example
 
 Jump to example folder.[Example](https://github.com/sunhailin-Leo/fastapi_apollo_middleware/blob/main/example/waterdrop_operator_example.py)
