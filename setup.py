@@ -16,7 +16,7 @@ __author_email__ = "379978424@qq.com"
 __license__ = "MIT"
 
 here = pathlib.Path(__file__).parent.absolute()
-with open(here / "requirments.txt") as requirements_fife:
+with open(here / "requirements.txt") as requirements_fife:
     __requires__ = [
         requirement_line.rstrip("\n")
         for requirement_line in requirements_fife
